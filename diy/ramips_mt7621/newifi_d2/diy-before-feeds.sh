@@ -9,4 +9,4 @@ git clone --depth=1 https://github.com/undefined443/openwrt-minieap-sysu package
 git clone --depth=1 https://github.com/kongfl888/luci-app-minieap package/luci-app-minieap
 
 # 修改：注释掉原作者修复 Python 的补丁文件（Ubuntu 22.04 原生完美支持编译 5.10 内核，无需此补丁，保留此行反而会因为找不到补丁文件而报错退出）
-# patch -p1 < ~/work/Railgun/Railgun/patches/00_python3.patch
+patch -p1 < ~/work/Railgun/Railgun/patches/00_python3.patch
