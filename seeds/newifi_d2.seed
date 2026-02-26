@@ -188,6 +188,7 @@ CONFIG_PACKAGE_luci-app-minieap=y # 添加：校园网 Minieap 图形化控制�
 CONFIG_PACKAGE_luci-theme-argon=y # 添加：极度丝滑的 Argon 现代化主题
 
 # ---- 基础网络与 IPv6 支持 ----
+CONFIG_PACKAGE_ip6tables=y
 CONFIG_PACKAGE_ipv6helper=y
 CONFIG_PACKAGE_luci-proto-ipv6=y
 CONFIG_PACKAGE_kmod-ebtables-ipv6=y
